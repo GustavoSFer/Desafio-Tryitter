@@ -8,7 +8,6 @@ namespace tryitter_back_end.Controllers;
 
 [ApiController]
 [Route("post")]
-// [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 [Authorize]
 public class PostController : ControllerBase
 {
